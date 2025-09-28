@@ -1,0 +1,126 @@
+
+/* Estructura general */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e6ecf2;
+}
+
+.cv-container {
+  display: flex;
+  max-width: 1000px;
+  margin: 20px auto;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Sidebar */
+.sidebar {
+  background: #5c696e;
+  color: white;
+  width: 35%;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+  border: 4px solid white;
+}
+
+.sidebar h2 {
+  margin: 10px 0 5px;
+}
+
+.sidebar .titulo {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.sidebar .info {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.sidebar h3 {
+  margin-top: 20px;
+  font-size: 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.6);
+  padding-bottom: 5px;
+  text-align: left;
+}
+
+.habilidades {
+  margin: 10px 0;
+  text-align: left;
+}
+
+.habilidades p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.barra {
+  background: rgba(255,255,255,0.3);
+  border-radius: 10px;
+  height: 8px;
+  overflow: hidden;
+}
+
+.barra span {
+  display: block;
+  height: 100%;
+  background: white;
+}
+
+.redes-sociales {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.redes-sociales li {
+  margin: 8px 0;
+  font-size: 14px;
+}
+
+.icon-link {
+color: white;
+text-decoration: none;
+}
+
+/* Columna derecha */
+.contenido {
+  background: white;
+  width: 65%;
+  padding: 30px;
+}
+
+.contenido h2 {
+  color: #141616;
+  border-bottom: 2px solid #32175f;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.item {
+  margin-bottom: 20px;
+}
+
+.item h3 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.hobbies {
+  display: flex;
+  gap: 15px;
+  font-size: 24px;
+  color: #743b9a;
+}
+
